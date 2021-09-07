@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=K2D:wght@300&display=swap');
+body {
+    margin: 0;
+    font-family: 'K2D', sans-serif;
+}
+
+.my_ads_medias {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 1;
+    position: absolute;
+    object-fit: fill;
+}
+
+.card-exam .card-exam-div {
+    background: #fff;
+    margin-top: 0px;
+    margin-bottom: -8px;
+    margin-left: -15px;
+    padding: 10px 10px 10px 10px;
+    border-color: rgb(189, 189, 189);
+    border-style: solid;
+    border-width: 0.2px;
+    width: 376.2px;
+    height: 82vh;
+    object-fit: fill;
+    position: relative;
+    overflow: scroll;
+}
+
+.card-exam-div .content-card-exam {
+    text-align: left;
+}
+
+.card-exam-div::-webkit-scrollbar {
+    display: none;
+}
+
+.card-exam-div {
+    -ms-overflow-style: none;
+    /* IE and Edge */
+    scrollbar-width: none;
+    /* Firefox */
+}
+
+footer.sticky-footer {
+    padding: 1.95rem 0;
+    flex-shrink: 0;
+}
+
+footer.sticky-footer .copyright {
+    line-height: 1;
+    font-size: 0.8rem;
+}
+
+body.sidebar-toggled footer.sticky-footer {
+    width: 100%;
+}
+
+
+/* Slider Text */
+
+.marquee {
+    margin: 0 auto;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.marquee span {
+    display: inline-block;
+    padding-left: 100%;
+    animation: marquee 100s linear infinite;
+}
+
+@keyframes marquee {
+    0% {
+        transform: translate(0, 0);
+    }
+    100% {
+        transform: translate(-100%, 0);
+    }
+}
