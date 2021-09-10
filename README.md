@@ -1,4 +1,4 @@
-# video_and_images_slideshow.github.io
+# Video and Images Slideshow
 Example For Media Slide Show (Advertisement Project)
 
 Example : [Demo](https://somnuekm.github.io/video_and_images_slideshow.github.io/) <br/>
